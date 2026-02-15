@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: mode === 'production' ? '/JohnKimProfile/' : '/',
+  base: mode === 'production' ? '/Profile/' : '/',
   build: {
     outDir: 'docs',
   },
